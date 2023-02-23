@@ -1,0 +1,118 @@
+body {
+    background-image: url('../assets/Sunset\ On\ A\ Beach\ -\ By\ Dribbble.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 127vh;
+}
+
+header {
+    margin-top: 1vw;
+    padding: 30px;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+}
+
+.card {
+    width: 45rem;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card #fnum:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.btn {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card #btnAdd {
+    margin-left: 1.2vw;
+}
+
+.card #btnRemove {
+    margin-left: 1.2vw;
+}
+
+.card select#flist {
+    width: 20vh;
+}
+
+.card select#seltab {
+    width: 20vh;
+}
+
+.card p#list {
+    width: 50vh;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card p#seltab {
+    width: 50vh;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card #btnGenerate {
+    margin-left: 1.2vw;
+}
+
+section #res {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        background-image: url('../assets/Sunset\ On\ A\ Beach\ -\ By\ Dribbble.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card select#flist {
+        width: 20vh;
+        text-align: center;
+    }    
+
+    .card select#seltab {
+        width: 20vh;
+        text-align: center;
+    }
+
+    .card #btnAdd {
+        margin-top: 2vw;
+    }
+    
+    .card #btnRemove {
+        margin-top: 2vw;
+    }
+
+    .card #btnGenerate {
+        margin-top: 2vw;
+    }
+
+    .card {
+        width: 20rem;
+    }
+  }

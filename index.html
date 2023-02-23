@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática, apenas.</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon-16x16.png" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+
+<body onload="load()">
+
+    <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <header>
+                    <h1>Analisador 📈</h1>
+                </header>
+
+                <section>
+                    <div class="card">
+
+                        <div class="card-body">
+                            <p>Número:
+                                <input type="number" name="fnum" id="fnum">
+                                <input type="button" value="Adicionar" id="btnAdd" class="btn btn-outline-primary"
+                                    onclick="add()">
+                                <input type="button" value="Remover" id="btnRemove" class="btn btn-outline-primary"
+                                    onclick="remove()">
+                            </p>
+                            <p><select name="flist" id="flist" size="10"></select></p>
+                        </div>
+
+                        <div id="res"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <header>
+                    <h1>Contador de passos 📈</h1>
+                </header>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="PA">
+                            <p>➕ Progressão Aritmética ➕ </p>
+                            <p>Número para começar: <input type="number" name="inicio" id="txtPAA1"></p>
+                            <p>Número para terminar: <input type="number" name="fim" id="txtPAAn"></p>
+                            <p>Razão: <input type="number" name="razao" id="txtr"></p>
+                            <p><input type="button" value="Confirmar" class="btn btn-outline-primary" onclick="countPA()"></p>
+                        </div>
+
+                        <div id="resPA"></div> <br>
+
+                        <div class="PG">
+                            <p>✖ Progressão Geométrica ✖ </p>
+                            <p>Número para começar: <input type="number" name="inicio" id="txtPGA1"></p>
+                            <p>Número para terminar: <input type="number" name="fim" id="txtPGAn"></p>
+                            <p>Razão: <input type="number" name="razao" id="txtq"></p>
+                            <p><input type="button" value="Confirmar" class="btn btn-outline-primary" onclick="countPG()"></p>
+                        </div>
+
+                        <div id="resPG"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <header>
+                    <h1>Tabuada 📈</h1>
+                </header>
+
+                <section>
+                    <div class="card">
+
+                        <div class="card-body">
+                            <p>Número:
+                                <input type="number" name="txtNumTab" id="txtNumTab">
+                                <input type="button" value="Gerar" id="btnGenerate" class="btn btn-outline-primary"
+                            onclick="generate()">
+                            </p>
+                            <p id="list"><select name="seltab" id="seltab" size="10"></select></p>
+                        </div>
+
+                        <div id="resTab"></div>
+                    </div>
+                </section>
+            </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; Felipe Sacramento</p>
+    </footer>
+    <script src="./scripts/Analyzer.js"></script>
+    <script src="./scripts/Stepcounter.js"></script>
+    <script src="./scripts/Multiplicationtable.js"></script>
+</body>
+
+</html>
