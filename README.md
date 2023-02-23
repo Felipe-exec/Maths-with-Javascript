@@ -36,7 +36,7 @@
 
 ## 🚀 Como visualizar o projeto
 
-Basta acessar o site: https://felipe-exec.github.io/Site-que-muda-de-acordo-com-a-hora/
+Basta acessar o site: https://felipe-exec.github.io/Maths-with-Javascript/
 
 ## 🛠 Tecnologias
 
