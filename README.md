@@ -24,7 +24,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autores">Autores</a> • 
+ <a href="#-autores">Autor</a> • 
  <a href="#-licença">Licença</a>
 </p>
 
@@ -52,7 +52,7 @@ Foi utilizado HTML5, CSS3, JavaScript, OpenAI ChatGPT e Bootstrap.
  <br />
  <br />
 
- <a href="https://www.instagram.com/felipao_de_forma/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ <a href="https://www.instagram.com/felipe_mzss" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href = "mailto:mzssacramento@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
  <a href="https://www.linkedin.com/in/felipe-sacramento-8a03ba212/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  
